@@ -16,6 +16,7 @@ sudo cp -rf ./99-calibration.conf-35-90  /etc/X11/xorg.conf.d/99-calibration.con
 sudo cp -rf ./99-fbturbo.conf /usr/share/X11/xorg.conf.d/99-fbturbo.conf
 
 # add cmdline
+sudo cp -rf ./cmdline.txt /boot/cmdline.txt
 #sudo echo " fbcon=map:10 fbcon=font:ProFont6x11" >> /boot/cmdline.txt
 
 # touch
